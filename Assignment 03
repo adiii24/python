@@ -17,11 +17,11 @@
         "    print(\"c is greatest:\", c)"
       ],
       "metadata": {
-        "id": "0zAtz-j8G5Td",
-        "outputId": "134cb40a-cf92-43a8-d9c1-824d02e21a93",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "0zAtz-j8G5Td",
+        "outputId": "134cb40a-cf92-43a8-d9c1-824d02e21a93"
       },
       "id": "0zAtz-j8G5Td",
       "execution_count": 2,
@@ -49,11 +49,11 @@
         "    print(\"The number is odd:\", num)"
       ],
       "metadata": {
-        "id": "xFzJqhCPHCWX",
-        "outputId": "7d7915a9-ebb7-42a5-f21c-f9167b6a8eef",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "xFzJqhCPHCWX",
+        "outputId": "7d7915a9-ebb7-42a5-f21c-f9167b6a8eef"
       },
       "id": "xFzJqhCPHCWX",
       "execution_count": 3,
@@ -81,11 +81,11 @@
         "    print(\"Not an alphabet\")"
       ],
       "metadata": {
-        "id": "fQIpVHJWHIrq",
-        "outputId": "50bf4a88-df15-4706-c6c9-2691e1eee0ae",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "fQIpVHJWHIrq",
+        "outputId": "50bf4a88-df15-4706-c6c9-2691e1eee0ae"
       },
       "id": "fQIpVHJWHIrq",
       "execution_count": 4,
@@ -109,11 +109,11 @@
         "    print(\"The input value is digit:\", value)"
       ],
       "metadata": {
-        "id": "pRafYMAFHRoL",
-        "outputId": "8cc47c3a-1e63-44df-9449-abd5c29147e8",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "pRafYMAFHRoL",
+        "outputId": "8cc47c3a-1e63-44df-9449-abd5c29147e8"
       },
       "id": "pRafYMAFHRoL",
       "execution_count": 5,

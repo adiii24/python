@@ -1,0 +1,68 @@
+{
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "a=10\n",
+        "print(type(a))\n",
+        "\n",
+        "b=10.5\n",
+        "print(type(b))\n",
+        "\n",
+        "c=\"aditya\"\n",
+        "print(type(c))\n",
+        "\n",
+        "d=True\n",
+        "print(type(d))\n",
+        "\n",
+        "f=[1,2,3]\n",
+        "print(type(f))\n",
+        "\n",
+        "h={\"name\":\"aditya\"}\n",
+        "print(type(h))\n",
+        "\n",
+        "i={\"aditya\"}\n",
+        "print(type(i))"
+      ],
+      "metadata": {
+        "id": "irYCS5rXDfi7",
+        "outputId": "34562f5a-32cc-40a3-ee0b-22fb04cf757c",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "irYCS5rXDfi7",
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n",
+            "<class 'float'>\n",
+            "<class 'str'>\n",
+            "<class 'bool'>\n",
+            "<class 'list'>\n",
+            "<class 'dict'>\n",
+            "<class 'set'>\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "required_libs": [],
+    "colab": {
+      "provenance": []
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

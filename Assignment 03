@@ -1,0 +1,147 @@
+{
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"Enter the first number: \"))\n",
+        "b = int(input(\"Enter the second number: \"))\n",
+        "c = int(input(\"Enter the third number: \"))\n",
+        "\n",
+        "if a > b and a > c:\n",
+        "    print(\"a is greatest:\", a)\n",
+        "\n",
+        "elif b > a and b > c:\n",
+        "    print(\"b is greatest:\", b)\n",
+        "\n",
+        "else:\n",
+        "    print(\"c is greatest:\", c)"
+      ],
+      "metadata": {
+        "id": "0zAtz-j8G5Td",
+        "outputId": "134cb40a-cf92-43a8-d9c1-824d02e21a93",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "0zAtz-j8G5Td",
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the first number: 10\n",
+            "Enter the second number: 9\n",
+            "Enter the third number: 5\n",
+            "a is greatest: 10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = int(input(\"Enter the number: \"))\n",
+        "\n",
+        "if num % 2 == 0:\n",
+        "    print(\"The number is even:\", num)\n",
+        "else:\n",
+        "    print(\"The number is odd:\", num)"
+      ],
+      "metadata": {
+        "id": "xFzJqhCPHCWX",
+        "outputId": "7d7915a9-ebb7-42a5-f21c-f9167b6a8eef",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "xFzJqhCPHCWX",
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the number: 8\n",
+            "The number is even: 8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ch = input(\"Enter a character: \")\n",
+        "\n",
+        "if ch.isupper():\n",
+        "    print(\"Uppercase character\")\n",
+        "elif ch.islower():\n",
+        "    print(\"Lowercase character\")\n",
+        "else:\n",
+        "    print(\"Not an alphabet\")"
+      ],
+      "metadata": {
+        "id": "fQIpVHJWHIrq",
+        "outputId": "50bf4a88-df15-4706-c6c9-2691e1eee0ae",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "fQIpVHJWHIrq",
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a character: j\n",
+            "Lowercase character\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "value = input(\"Enter the input: \")\n",
+        "\n",
+        "if value.isdigit():\n",
+        "    print(\"The input value is digit:\", value)"
+      ],
+      "metadata": {
+        "id": "pRafYMAFHRoL",
+        "outputId": "8cc47c3a-1e63-44df-9449-abd5c29147e8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "pRafYMAFHRoL",
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the input: 7\n",
+            "The input value is digit: 7\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "required_libs": [],
+    "colab": {
+      "provenance": []
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
